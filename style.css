@@ -1,8 +1,54 @@
-#left{
-    text-align: left;
-    display:inline;
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.page,#grid,#survey{font-family: 'Jua', sans-serif;
 }
-#center{
-    text-align: center;
-    display:inline;
+
+#grid{border:1px solid black;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(255, 255, 246);
+}
+
+#survey{
+    border:1px black solid;
+    width:600px;
+}
+
+#grid .menu{
+    font-size:30px;
+    font:strong;
+    color:black;
+}
+
+@media(max-width:500px){
+    #grid{
+        display:block;
+    }
+    .menu{
+        display:list-item;
+        padding-bottom:5px ;
+        padding-top: 5px;
+    }   
+}
+@media(max-width:600px){
+        #survey{
+            border:1px black solid;
+            width:100%;
+        }
+        }
+@media (max-width: 300px) {
+    #survey {
+        border: 1px black solid;
+        width: 300px; /* 화면 크기가 300px 이하일 때 survey div의 width를 300px로 고정 */
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: green;font-size: 40px;
+    margin:15px;
 }

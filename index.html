@@ -1,60 +1,41 @@
 <!DOCTYPE html>
 <html> 
 <head lang="ko">
-<title>우리의 웹페이지</title>
-<meta charset="utf-8"
-
-<link href="style.css" rel="stylesheet">
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
-
-.page{font-family: 'Nanum Brush Script', cursive;
-}
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-a{
-	text-decoration: none;
-}
-</style>
-
+	<title>우리의 웹페이지</title>
+	<meta charset="utf-8">
+	<link href="./style.css?after" rel="stylesheet">
 </head>
 <body>
+	<h1 class="page">쏘유니와 나만의 웹사이트</h1>
 
-<div class="page">
-<header>
-<nav>
-	<ul style="border:1px solid black;">
-	<li id="left"><a href="./photo.html" target="_blank">우리 사진</a></li>
-	<li id="center">우리 추억</li>
-	<li id="right"><a href="./letters.html" target="_blank">편지지 </a></li>
-	</ul>
-</nav>
-</header>
-</div>
-<br>
+	<div id="grid">
+		<div class="menu"><a href="./photo.html" target="_blank">우리 사진</a></div>
+		<div class="menu">우리 추억</div>
+		<div class="menu"><a href="./letters.html" target="_blank">편지지 </a></div>
+	</div>
+	<br>
 
-<h1 style="color: green;" class="page">쏘유니와 나만의 웹사이트</h1>
-<img src="unicowait.JPEG" width="300px"><br>
+	<img src="unicowait.JPEG" width="300px"><br>
 
-<h3 class="page">(쏘유니 초인종 소리)</h3>
-<p><audio src="DoorBell.mp3" controls></p>
+	<h3 class="page">(쏘유니 초인종 소리)</h3>
+	<p><audio src="DoorBell.mp3" controls></p>
 
-<img src="unico.JPEG" width="200px"><br>
-<img src="unicosign.JPEG" width="300px"><br><br>
+	<img src="unico.JPEG" width="200px"><br>
+	<img src="unicosign.JPEG" width="300px"><br><br>
 
 
-<form method="POST">
-<div style="border: 1px black solid;
-	width:800px">
-<label style="font-size:20px;">당신의 성별을 입력해 주세요</label>
-<p><input type="radio" name="animal" value="unico">유니코유니
-<input type="radio" name="animal" value="quokka">쿼카
-<input type="radio" name="animal" value="quokkakitty">쿼양이
-</p>
+	<form method="POST">
+	<div id="survey">
+	<label style="font-size:30px;">당신의 성별을 입력해 주세요</label>
+	<p><input type="radio" name="animal" value="unico">유니코유니
+	<input type="radio" name="animal" value="quokka">쿼카
+	<input type="radio" name="animal" value="quokkakitty">쿼양이
+	</p>
 
-당신의 이름은!? <input type="textarea"><br>
-<input type="submit" value="제출">
-</div>
-</form>
+	당신의 이름은!? <input type="textarea"><br>
+	<input type="submit" value="제출">
+	</div>
+	</form>
 </body>
 
 
