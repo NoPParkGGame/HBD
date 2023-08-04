@@ -6,7 +6,7 @@
 
 #grid{border:1px solid black;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr auto;
     background-color: rgb(255, 255, 246);
 }
 
@@ -15,10 +15,10 @@
     width:600px;
 }
 
-#grid .menu{
+#grid .menu a{
     font-size:30px;
-    font:strong;
     color:black;
+
 }
 
 @media(max-width:500px){
