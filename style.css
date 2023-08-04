@@ -21,7 +21,7 @@ h1{
 }
 
 #survey{
-    border:1px black solid;
+    border:2px black solid;
     width:600px;
 }
 
@@ -67,6 +67,6 @@ a{
     text-decoration: none;
 }
 
-#uniwait{
+.uni{
     border:3px black solid;
 }
