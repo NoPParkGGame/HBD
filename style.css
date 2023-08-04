@@ -3,8 +3,18 @@
 
 .page,#grid,#survey{font-family: 'Jua', sans-serif;
 }
+h1{
+    margin: 0px;
+    margin-bottom:5px;
+    text-align: center;
+    border:3px black solid;
+    border-radius:20px;
+    color: green;font-size: 40px;
 
-#grid{border:1px solid black;
+}
+
+#grid{border:3px black solid;
+    border-radius:20px;
     display:grid;
     grid-template-columns: 1fr 1fr auto;
     background-color: rgb(255, 255, 246);
@@ -18,12 +28,14 @@
 #grid .menu a{
     font-size:30px;
     color:black;
-
+    padding-left:4px;
+    padding-right:4px;
 }
 
 @media(max-width:500px){
     #grid{
         display:block;
+       
     }
     .menu{
         display:list-item;
@@ -37,10 +49,17 @@
             width:100%;
         }
         }
-@media (max-width: 300px) {
+@media (max-width: 400px) {
     #survey {
         border: 1px black solid;
-        width: 300px; /* 화면 크기가 300px 이하일 때 survey div의 width를 300px로 고정 */
+        width: 400px; /* 화면 크기가 300px 이하일 때 survey div의 width를 300px로 고정 */
+    }
+    #grid{
+        border:1px black solid;
+        width:400px;
+    }
+    h1{
+        width:400px;
     }
 }
 
@@ -48,7 +67,6 @@ a{
     text-decoration: none;
 }
 
-h1{
-    color: green;font-size: 40px;
-    margin:15px;
+#uniwait{
+    border:3px black solid;
 }
