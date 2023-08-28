@@ -52,7 +52,7 @@ h1{
 @media (max-width: 400px) {
     #survey {
         border: 1px black solid;
-        width: 400px; /* 화면 크기가 300px 이하일 때 survey div의 width를 300px로 고정 */
+        width: 400px; /* 화면 크기가 400px 이하일 때 survey div의 width를 400px로 고정 */
     }
     #grid{
         border:1px black solid;
