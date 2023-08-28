@@ -70,3 +70,7 @@ a{
 .uni{
     border:3px black solid;
 }
+
+#nightDayButton{
+    width:300px;
+}
