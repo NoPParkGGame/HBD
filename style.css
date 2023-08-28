@@ -74,4 +74,6 @@ a{
 #nightDayButton{
     font-size:200px;
     border-radius:12px;
+    color:white;
+    background-color:black;
 }
