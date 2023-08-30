@@ -4,13 +4,13 @@ let coloring={
         if(self.value==="야간모드"){
             targetBody.style.backgroundColor=coloring1;
             targetBody.style.color=coloring2;
-            targetAllBorder.style.borderColor=coloring2;
+            targetAllBorder.style.color=coloring2;
             self.value="주간모드";
         }
         else{
             targetBody.style.backgroundColor=coloring2
             targetBody.style.color=coloring1;
-            targetAllBorder.style.borderColor=coloring1;
+            targetAllBorder.style.color=coloring1;
             self.value="야간모드"
         }
     }
