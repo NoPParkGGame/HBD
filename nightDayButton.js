@@ -4,8 +4,9 @@ let coloring={
         if(self.value==="야간모드"){
             targetBody.style.backgroundColor=coloring1;
             targetBody.style.color=coloring2;
+            self.value="주간모드"
             targetAllBorder.style.color=coloring2;
-            self.value="주간모드";
+            
         }
         else{
             targetBody.style.backgroundColor=coloring2
