@@ -1,10 +1,13 @@
 let coloring={
     nightDay:function(self,coloring1,coloring2){
-        [targetBody,targetAllBorder]=[document.querySelector('body'),document.querySelectorAll('.border')]
+        [targetBody]=[document.querySelector('body')]
+        let cssborders=['.page','#grid','#survey','.uni'];
+        let bordertest='.page';
         if(self.value==="야간모드"){
             targetBody.style.backgroundColor=coloring1;
             targetBody.style.color=coloring2;
             self.value="주간모드";
+            bordertest.style.borderColor=coloring2;
             $('.border').css('borderColor',coloring2);
             /*
             let i=0;
