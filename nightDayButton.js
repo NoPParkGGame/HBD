@@ -7,8 +7,9 @@ let coloring={
             targetBody.style.backgroundColor=coloring1;
             targetBody.style.color=coloring2;
             let i=0;
+        
             while(i<borderList.length){
-                borderList[i].style.borderColor=coloring2;
+                borderList[i].style.borderColor='white';
             }
             self.value="주간모드";
         }
