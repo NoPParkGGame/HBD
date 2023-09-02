@@ -8,7 +8,7 @@ let coloring={
             targetAllBorder.style.borderColor=coloring2;
             
         }
-        else{
+        else if(self.value==="주간모드"){
             targetBody.style.backgroundColor=coloring2;
             targetBody.style.color=coloring1;
             self.value='야간모드';
