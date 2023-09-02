@@ -7,7 +7,7 @@ let coloring={
             targetBody.style.backgroundColor=coloring1;
             targetBody.style.color=coloring2;
             self.value="주간모드";
-            bordertest.style.borderColor=coloring2;
+            bordertest.style.color='powderblue'
             /*
             let i=0;
             while(i<targetAllBorder.length){
