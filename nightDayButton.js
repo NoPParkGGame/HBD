@@ -7,8 +7,8 @@ let coloring={
             let i=0;
             while(i<targetAllBorder.length){
                 targetAllBorder[i].style.borderColor=coloring2;
-                i+=1
-            }
+                i+=1;
+            };
             self.value="주간모드";
             
         }
@@ -19,8 +19,8 @@ let coloring={
             let i=0;
             while(i<targetAllBorder.length){
                 targetAllBorder[i].style.borderColor=coloring1;
-                i+=1
-            }
+                i+=1;
+            };
             self.value='야간모드';
             
 
