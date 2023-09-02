@@ -11,8 +11,9 @@ let coloring={
         else{
             targetBody.style.backgroundColor=coloring2;
             targetBody.style.color=coloring1;
+            self.value='야간모드';
             targetAllBorder.style.borderColor=coloring1;
-            self.value="야간모드";
+            
         }
     }
 }
