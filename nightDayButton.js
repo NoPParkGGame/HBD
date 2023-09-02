@@ -4,10 +4,10 @@ let coloring={
         let cssborders=['.page','#grid','#survey','.uni'];
         let bordertest=document.querySelector('h1');
         if(self.value==="야간모드"){
+            bordertest.style.borderColor=coloring2;
             targetBody.style.backgroundColor=coloring1;
             targetBody.style.color=coloring2;
             self.value="주간모드";
-            bordertest.style.color='powderblue'
             /*
             let i=0;
             while(i<targetAllBorder.length){
