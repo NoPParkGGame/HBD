@@ -1,9 +1,11 @@
 let coloring={
     nightDay:function(self,coloring1,coloring2){
         [targetBody,targetAllBorder]=[document.querySelector('body'),document.querySelectorAll('.border')]
+        
         let refh1=document.querySelector('h1');
         let borderList=['#grid','#survey','.uni',refh1]
         let gridlist=document.querySelector('#grid');
+        
         if(self.value==="야간모드"){
             targetBody.style.backgroundColor=coloring1;
             targetBody.style.color=coloring2;
