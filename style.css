@@ -19,6 +19,7 @@ h1{
     grid-template-columns: 1fr 1fr auto;
     background-color: rgb(255, 255, 246);
     color:white;
+    
 }
 
 #survey{

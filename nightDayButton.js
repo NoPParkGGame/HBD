@@ -10,7 +10,16 @@ let coloring={
             targetBody.style.backgroundColor=coloring1;
             targetBody.style.color=coloring2;
             gridlist.style.backgroundColor=coloring1;
-            gridlist.style.color=coloring2;
+            
+            gridlist.style.cssText='border:3px black solid;
+            border-radius:20px;
+            display:grid;
+            grid-template-columns: 1fr 1fr auto;
+            background-color: black;
+            color:white;'
+            
+            /*change grid color*/
+            
             self.value="주간모드";
         }
         else if(self.value==="주간모드"){
