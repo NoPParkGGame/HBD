@@ -11,7 +11,7 @@ let coloring={
             targetBody.style.color=coloring2;
 
             self.value="주간모드";
-        };       
+        }       
         else if(self.value==="주간모드"){
             targetBody.style.backgroundColor=coloring2;
             targetBody.style.color=coloring1;  
