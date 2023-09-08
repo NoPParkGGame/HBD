@@ -11,11 +11,11 @@ let coloring={
             targetBody.style.backgroundColor=coloring1;
             targetBody.style.color=coloring2;
             gridlist.style.backgroundColor=coloring1;
-            
+            gridlist.style.borderColor=coloring2;
             for(let i=0,i<linklist.length,i++){
                 linklist[i].style.color=coloring2;
             }
-                              
+
             self.value="주간모드";
         }
         else if(self.value==="주간모드"){
